@@ -7,7 +7,7 @@ function main() {
 }
 
 function spin() {
-    const colors = ['blue', 'yellow', 'red', 'green'];
+    const colors = ['blue', 'yellow', 'red', 'green', 'wild'];
     const parts = ['left foot', 'right hand', 'left hand', 'right foot', 'nose', 'belly button'];
 
     const chosenColor = choose(colors);
