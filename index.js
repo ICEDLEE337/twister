@@ -2,8 +2,7 @@ const { randomInt } = require("crypto");
 
 
 function main() {
-    console.clear();
-    console.log(spin())
+    console.log(new Date().toISOString(), spin())
 }
 
 function spin() {
