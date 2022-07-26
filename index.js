@@ -1,12 +1,11 @@
 const { randomInt } = require("crypto");
 
-
 function main() {
     console.log(new Date().toISOString(), spin())
 }
 
 function spin() {
-    const colors = ['blue', 'yellow', 'red', 'green', 'wild'];
+    const colors = ['blue', 'yellow', 'red', 'green', 'wild', 'white'];
     const parts = ['left foot', 'right hand', 'left hand', 'right foot', 'nose', 'belly button'];
 
     const chosenColor = choose(colors);
